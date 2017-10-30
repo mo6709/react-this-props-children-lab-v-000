@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+// 
 import Invitation from './components/Invitation';
-import ThemedParty from './components/ThemedDecorations';
+import ThemedDecorations from './components/ThemedDecorations';
 
 ReactDOM.render(
   <div>
     <Invitation>Hey, you should totally come to this awesome party I'm throwing!</Invitation>
-    <ThemedParty theme="heaven">
+    <ThemedDecorations theme="heaven-one">
       <p>A decoration</p>
       <p>Some other decoration</p>
       <p>A last decoration</p>
-    </ThemedParty>
+    </ThemedDecorations>
   </div>,
   document.getElementById('global')
 );
